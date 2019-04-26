@@ -23,17 +23,43 @@ body {
 
 }
 header {
-  padding: 4em;
+  padding: 5em;
   margin-top: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  background-color: #EC0C1C;
-  height: 25em;
+  background-color: var(--main1-color);
+  height: auto;
+  width: 100%;
+  color: var(--fourth1-color);
+  border-bottom: 2px solid var(--second2-color);
+  font-family: 'Roboto', 'Open Sans', Helvetica, sans-serif;
 }
-h1 {
-  font-family: 'Eczar', Georgia;
+header span.greeting img{
+  height: 15em;
+}
+
+header h2 {
+  margin: auto;
+  margin-top: 1em;
+  justify-content: center;
+  text-align: center;
+}
+header .icon {
+  border: 2px solid var(--fourth1-color);
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header i {
+  font-size: 1.5em;
+
+
 }
 .classList {
   display: flex;
@@ -42,4 +68,30 @@ h1 {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+}
+main {
+  background-color: var(--second1-color);
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--fourth1-color);
+  font-family: 'Roboto', 'Open Sans', Helvetica, sans-serif;
+}
+.subject {
+  margin: 2em;
+  padding: 2em;
+  background-color: var(--third1-color);
+  font-family: 'Eczar', Georgia, serif;
+}
+hr {
+    display: block;
+    height: 1px;
+    width: 90%;
+    border: 0;
+    margin: 1em 0;
+    padding: 0;
+    border-top: 1px solid var(--main2-color);
 }
